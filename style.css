@@ -9,6 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* For Chrome, Safari, and newer versions of Opera */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer and older versions of Edge */
 }
 
 .container {
